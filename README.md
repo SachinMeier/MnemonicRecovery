@@ -23,8 +23,13 @@ cd MnemonicRecovery
 # setup virtual environment
 python3 -m venv . 
 
+# activate virtual environment
+source .venv/bin/activate
+
 # install bitarray
 pip3 install bitarray
+
+
 
 # run script
 python3 src/brute-force.py
