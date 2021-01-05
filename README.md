@@ -14,7 +14,7 @@ The only dependency is '''bitarray''', a python library which can be installed w
 
 ## Install and Use
 
-'''bash
+```bash
 
 # get source code
 git clone git@github.com:SachinMeier/MnemonicRecovery.git
@@ -28,6 +28,6 @@ pip3 install bitarray
 
 # run script
 python3 src/brute-force.py
-'''
+```
 
 The script will prompt the user to enter their words, select a gap limit, and enter any known addresses. 
