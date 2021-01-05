@@ -135,7 +135,7 @@ class HDPubKey:
 class Wallet:
 	DEFAULT_GAP_LIMIT = 10
 	DEFAULT_NAME = "Wallet0"
-	BASE_PATH = "76'/0'/"
+	BASE_PATH = "44'/0'/"
 	DUST_LIMIT = 5000
 	TX_VERSION = 1
 	"""
